@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+  oifey:
+    build: .
+    container_name: oifey
+    command: python main.py
+    restart: unless-stopped
